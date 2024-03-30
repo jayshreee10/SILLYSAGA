@@ -1,0 +1,33 @@
+@media only screen and (width <= 768px) {
+  h1 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 30px;
+    letter-spacing: 3px;
+  }
+
+  #buttons {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    margin-top: 10vh;
+  }
+  #text {
+    margin-top: 5vh;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    color: rgb(87, 0, 0);
+    font-weight: 300;
+    width: 100vw;
+  }
+  h6 {
+    font-size: large;
+  }
+  button {
+    width: 150px;
+    height: 30px;
+    border-radius: 10%;
+  }
+}
