@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background: linear-gradient(to left bottom, aliceblue, lightpink, lightblue);
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(175, 38, 0);
+}
+
+#buttons {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  align-items: center;
+  width: 80vw;
+  margin-top: 10vh;
+}
+button {
+  width: 100px;
+  height: 30px;
+  border-radius: 10%;
+}
+h1 {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 50px;
+  letter-spacing: 3px;
+}
+#text {
+  margin-top: 5vh;
+  margin-left: vw;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(87, 0, 0);
+  font-weight: 200;
+  width: 70vw;
+}
+
+#wouldYouRather {
+  width: 150px;
+}
+#neverHaveIEver {
+  width: 150px;
+}
+#paranoia {
+  width: 150px;
+}
