@@ -9,4 +9,5 @@ SillySaga is a fun-filled game suitable for all age groups, offering entertainme
 
 ## Desktop View
 
-![Screenshot (321)](https://github.com/jayshreee10/SILLYSAGA/assets/155508849/4eab1baf-582b-45cf-8197-21cd82b2adb6)
+![Screenshot (322)](https://github.com/jayshreee10/SILLYSAGA/assets/155508849/45d6f212-2cf8-4b61-bdb6-4f592764d494)
+
