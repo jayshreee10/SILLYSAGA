@@ -3,6 +3,7 @@ const dareButton = document.getElementById("dare");
 const wouldYouRatherButton = document.getElementById("wouldYouRather");
 const neverHaveIEverButton = document.getElementById("neverHaveIEver");
 const paranoiaButton = document.getElementById("paranoia");
+const jokeButton = document.getElementById("joke");
 const resetButton = document.getElementById("reset");
 const getTruthop = truthButton.addEventListener("click", getTruth);
 const getDareop = dareButton.addEventListener("click", getDare);
@@ -16,6 +17,7 @@ const neverHaveIEver = neverHaveIEverButton.addEventListener(
 );
 const paranoia = paranoiaButton.addEventListener("click", getparanoia);
 const reset = resetButton.addEventListener("click", getreset);
+const joke = jokeButton.addEventListener("click", getjoke);
 let textArea = document.getElementById("text");
 
 async function getTruth() {
@@ -62,6 +64,17 @@ async function getparanoia() {
   paranoiaButton.disable = false;
   textArea.innerHTML = data.question;
 }
+
+async function getjoke() {
+  textArea.innerHTML = "updating.....";
+  jokeButton.disable = true;
+  const apiUrl = await fetch("https://official-joke-api.appspot.com/random_joke");
+  const data = await apiUrl.json();
+  jokeButton.disable = false;
+  let myjoke = data.setup +"  " +data.punchline ;
+  textArea.innerHTML = myjoke ;
+  
+} 
 
 function getreset() {
   textArea.innerHTML = "click to start";

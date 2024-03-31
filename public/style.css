@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family:Poppins;
+}
+.container {
+  /* background: linear-gradient(to left bottom, rgb(94, 148, 199), lightpink, rgb(209, 64, 64)); */
+  background-image: linear-gradient(
+    0deg,
+    hsl(271deg 100% 17%) 0%,
+    hsl(250deg 72% 17%) 15%,
+    hsl(231deg 80% 13%) 28%,
+    hsl(230deg 81% 9%) 39%,
+    hsl(231deg 82% 6%) 49%,
+    hsl(240deg 57% 8%) 57%,
+    hsl(250deg 52% 9%) 65%,
+    hsl(257deg 50% 10%) 72%,
+    hsl(259deg 52% 12%) 79%,
+    hsl(268deg 61% 15%) 86%,
+    hsl(277deg 74% 17%) 93%,
+    hsl(287deg 100% 17%) 100%
+  );
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: transparent; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(139, 159, 202);
+  font-family: ;
+}
+
+#buttons {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 80vw;
+  align-items: center;
+  margin-top: 10vh;
+}
+button {
+  width: 100px;
+  height: 30px;
+  border-radius: 10%;
+}
+h1 {
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 50px;
+  letter-spacing: 3px;
+}
+#text {
+  margin-top: 5vh;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  font-weight: 200;
+  width: 70vw;
+}
+
+#wouldYouRather {
+  width: 150px;
+}
+#neverHaveIEver {
+  width: 150px;
+}
+#paranoia {
+  width: 150px;
+}

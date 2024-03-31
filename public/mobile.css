@@ -10,23 +10,37 @@
     display: flex;
     flex-direction: column;
     height: 46vh;
-
   }
   #text {
     margin-top: 5vh;
     text-align: center;
     font-size: 18px;
     font-weight: 300;
-    color: rgb(87, 0, 0);
-    font-weight: 300;
     width: 100vw;
+    height: 5vh;
   }
   h6 {
     font-size: large;
   }
   button {
-    width: 150px;
-    height: 35px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10%;
+    font-size:15px;
+  }
+  #wouldYouRather {
+    width: 200px;
+    height: 40px;
+    border-radius: 10%;
+  }
+  #neverHaveIEver {
+    width: 200px;
+    height: 40px;
+    border-radius: 10%;
+  }
+  #paranoia {
+    width: 200px;
+    height: 40px;
     border-radius: 10%;
   }
 }
