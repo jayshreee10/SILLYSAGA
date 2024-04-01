@@ -4,9 +4,9 @@
 
 ## Skills Learned
 
-- Asynchronous JavaScript
-- Fetching API
-- Postman
+- Asynchronous JavaScript ✅
+- Fetching API ✅
+- Postman  ✅ 
 
 ## Desktop View
 
