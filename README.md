@@ -1,11 +1,12 @@
 # SILLYSAGA
-SillySaga is a fun-filled game suitable for all age groups, offering entertainment and enjoyment for everyone.
+- Sillysaga is an entertaining game that includes a variety of activities such as **Truth or Dare** ,**Jokes**,**Never-have-I-ever**, **Would you rather**, and thrilling **Paranoia questions**, offering hours of fun with friends. 
+- Through this game, players can explore different challenges and engage in hilarious interactions.
 
 ## Skills Learned
 
-- Asynchronous JavaScript
-- Fetching API
-- Postman
+- Asynchronous JavaScript ✅
+- Fetching API ✅
+- Postman  ✅ 
 
 ## Desktop View
 
